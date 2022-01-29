@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  # VSCode が接続するコンテナ
+  workspace:
+    # 使用する Docker イメージを指定
+    # https://github.com/somq14/devcontainer-images
+    image: somq14/devcontainer-image:d4e097519ed1b6d3752497c965c277e675907f5e
+    # コンテナが即終了しないようにコンテナの起動コマンドを変更する
+    command: sleep infinity
+    volumes:
+      # ホストのプロジェクト全体をコンテナにマウントする
+      # delegatedはホストとコンテナとの一貫性を犠牲にパフォーマンスを向上させるオプション
+      - ..:/root/${WORKSPACE_NAME}:delegated
+      # シェルの履歴等を残すために永続化用のディレクトリにボリュームを割り当てる
+      - /root/persistent

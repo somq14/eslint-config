@@ -1,0 +1,16 @@
+# yarn のキャッシュ等を ignore
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# 生成物を ignore
+node_modules/
+dist/
+build/
+coverage/
+*.log
