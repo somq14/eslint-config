@@ -1,6 +1,6 @@
 module.exports = {
   // ESLint が TypeScript を理解できるようパーサを指定する
-  parser: ["@typescript-eslint/parser"],
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     // 型情報を使用したリントのために TypeScript の設定ファイルを指定
     // 必要があれば各プロジェクトで設定を上書きして使用する
