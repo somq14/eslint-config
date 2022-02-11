@@ -51,6 +51,7 @@ module.exports = {
      * 条件
      */
     eqeqeq: ["error"],
+    "no-constant-condition": ["error", { checkLoops: false }],
     "@typescript-eslint/strict-boolean-expressions": [
       "error",
       {
