@@ -25,18 +25,18 @@ module.exports = {
     /*
      * 変数・識別子
      */
-    "no-var": ["warn"],
-    "prefer-const": ["warn"],
+    "no-var": ["error"],
+    "prefer-const": ["error"],
 
     /*
      * コーディングスタイル
      */
-    curly: ["warn"],
-    "prefer-template": ["warn"],
-    "prefer-arrow-callback": ["warn"],
-    "@typescript-eslint/prefer-for-of": ["warn"],
+    curly: ["error"],
+    "prefer-template": ["error"],
+    "prefer-arrow-callback": ["error"],
+    "@typescript-eslint/prefer-for-of": ["error"],
     "@typescript-eslint/naming-convention": [
-      "warn",
+      "error",
       {
         selector: ["default"],
         format: ["camelCase", "PascalCase", "UPPER_CASE"],
@@ -50,9 +50,9 @@ module.exports = {
     /*
      * 条件
      */
-    eqeqeq: ["warn"],
+    eqeqeq: ["error"],
     "@typescript-eslint/strict-boolean-expressions": [
-      "warn",
+      "error",
       {
         allowString: false,
         allowNumber: false,
@@ -62,43 +62,47 @@ module.exports = {
         allowNullableNumber: false,
       },
     ],
-    "@typescript-eslint/prefer-nullish-coalescing": ["warn"],
-    "@typescript-eslint/prefer-optional-chain": ["warn"],
-    "@typescript-eslint/switch-exhaustiveness-check": ["warn"],
+    "@typescript-eslint/prefer-nullish-coalescing": ["error"],
+    "@typescript-eslint/prefer-optional-chain": ["error"],
+    "@typescript-eslint/switch-exhaustiveness-check": ["error"],
 
     /*
      * モジュール
      */
-    "@typescript-eslint/explicit-module-boundary-types": ["warn"],
+    "@typescript-eslint/explicit-module-boundary-types": ["error"],
     "sort-imports": [
-      "warn",
+      "error",
       { ignoreDeclarationSort: true, ignoreMemberSort: false },
     ],
-    "import/no-self-import": ["warn"],
-    "import/no-cycle": ["warn", { ignoreExternal: true }],
-    "import/no-useless-path-segments": ["warn"],
-    "import/no-extraneous-dependencies": ["warn"],
-    "import/first": ["warn"],
-    "import/no-duplicates": ["warn"],
+    "import/no-self-import": ["error"],
+    "import/no-cycle": ["error", { ignoreExternal: true }],
+    "import/no-useless-path-segments": ["error"],
+    "import/no-extraneous-dependencies": ["error"],
+    "import/first": ["error"],
+    "import/no-duplicates": ["error"],
     "import/order": [
-      "warn",
+      "error",
       { alphabetize: { order: "asc" }, "newlines-between": "always" },
     ],
-    "import/no-default-export": ["warn"],
-    "import/no-anonymous-default-export": ["warn"],
+    "import/no-default-export": ["error"],
+    "import/no-anonymous-default-export": ["error"],
 
     /*
      * ミス防止
      */
-    "require-atomic-updates": ["warn"],
-    "@typescript-eslint/no-unused-expressions": ["warn"],
-    "@typescript-eslint/no-useless-constructor": ["warn"],
-    "@typescript-eslint/unbound-method": ["warn"],
-    "@typescript-eslint/require-array-sort-compare": ["warn"],
+    "require-atomic-updates": ["error"],
+    "@typescript-eslint/no-unused-expressions": ["error"],
+    "@typescript-eslint/no-useless-constructor": ["error"],
+    "@typescript-eslint/unbound-method": ["error"],
+    "@typescript-eslint/require-array-sort-compare": ["error"],
 
     /*
      * 非同期処理
      */
     "@typescript-eslint/require-await": ["off"],
+    "@typescript-eslint/no-misused-promises": [
+      "error",
+      { checksVoidReturn: false },
+    ],
   },
 };
