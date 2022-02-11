@@ -95,5 +95,10 @@ module.exports = {
     "@typescript-eslint/no-useless-constructor": ["warn"],
     "@typescript-eslint/unbound-method": ["warn"],
     "@typescript-eslint/require-array-sort-compare": ["warn"],
+
+    /*
+     * 非同期処理
+     */
+    "@typescript-eslint/require-await": ["off"],
   },
 };
