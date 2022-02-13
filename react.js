@@ -7,4 +7,9 @@ module.exports = {
     "plugin:jsx-a11y/recommended",
     "prettier",
   ],
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
 };
