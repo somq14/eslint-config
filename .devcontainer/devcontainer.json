@@ -1,10 +1,12 @@
 {
   // docker-compose ファイルには起動すべきコンテナが定義されている
   "dockerComposeFile": "./docker-compose.yml",
+
   // VSCode の接続先となる docker-compose のサービス名
   "service": "workspace",
+
   // VSCode が開くコンテナ内のディレクトリ
-  "workspaceFolder": "/root/${localWorkspaceFolderBasename}",
+  "workspaceFolder": "/home/vscode/eslint-config",
 
   // コンテナ側にインストールする拡張機能の一覧
   // ホスト側にインストールする拡張機能は .vscode/extensions.json に記載がある
