@@ -208,6 +208,12 @@ module.exports = {
         "@typescript-eslint/prefer-for-of": ["warn"],
         // async 関数に await が使用されていなくても許す
         "@typescript-eslint/require-await": ["off"],
+        // 戻り型が void な関数に async 関数を渡すことを許す
+        // cf. https://typescript-eslint.io/rules/no-misused-promises#checksvoidreturn-true
+        "@typescript-eslint/no-misused-promises": [
+          "warn",
+          { checksVoidReturn: false },
+        ],
       },
     },
   ],
