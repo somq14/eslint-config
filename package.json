@@ -4,21 +4,23 @@
   "main": "index.js",
   "packageManager": "yarn@3.1.1",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.10.1",
-    "@typescript-eslint/parser": "^5.10.1",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "eslint-plugin-sort-export-all": "^1.2.1"
+    "@typescript-eslint/eslint-plugin": "~5.13.0",
+    "@typescript-eslint/parser": "~5.13.0",
+    "eslint-config-prettier": "~8.5.0",
+    "eslint-import-resolver-typescript": "~2.5.0",
+    "eslint-plugin-import": "~2.25.4",
+    "eslint-plugin-jsx-a11y": "~6.5.1",
+    "eslint-plugin-only-warn": "~1.0.3",
+    "eslint-plugin-react": "~7.29.3",
+    "eslint-plugin-react-hooks": "~4.3.0",
+    "eslint-plugin-sort-export-all": "~1.2.1"
   },
   "peerDependencies": {
-    "eslint": "*",
-    "typescript": "*"
+    "eslint": "8.x.x",
+    "typescript": "4.5.x"
   },
   "devDependencies": {
-    "eslint": "^8.8.0",
-    "typescript": "^4.5.5"
+    "eslint": "8.x.x",
+    "typescript": "4.5.x"
   }
 }
