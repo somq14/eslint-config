@@ -175,11 +175,17 @@ module.exports = {
           {
             selector: ["default"],
             format: ["camelCase", "PascalCase", "UPPER_CASE"],
+            leadingUnderscore: "allow",
           },
           {
             selector: ["typeLike"],
             format: ["PascalCase"],
           },
+        ],
+        // 未使用の変数を警告する
+        "@typescript-eslint/no-unused-vars": [
+          "warn",
+          { argsIgnorePattern: "^_" },
         ],
         // export する値には明示的に型を指定する
         "@typescript-eslint/explicit-module-boundary-types": ["warn"],
@@ -214,6 +220,8 @@ module.exports = {
           "warn",
           { checksVoidReturn: false },
         ],
+        // 空の関数を許す
+        "@typescript-eslint/no-empty-function": ["off"],
       },
     },
   ],
