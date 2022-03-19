@@ -6,21 +6,21 @@ __metadata:
   cacheKey: 8
 
 "@babel/runtime-corejs3@npm:^7.10.2":
-  version: 7.17.2
-  resolution: "@babel/runtime-corejs3@npm:7.17.2"
+  version: 7.17.8
+  resolution: "@babel/runtime-corejs3@npm:7.17.8"
   dependencies:
     core-js-pure: ^3.20.2
     regenerator-runtime: ^0.13.4
-  checksum: fc7ba261913c66347434051c74b00f320fb5fda7c72f4a4378045b39e31a39420bba2b2cf3fd59367834b43689215b12cb0587a599c95e9619562e1ebec071a7
+  checksum: 91f96437393b48c51000d1bb9d7a219de9394c5cf5227f1d263b6653fac3ff78e9d5e445e7c4410e9e3b24497715098ea6ade6fcad6cf964b0cf3ff161a85bd9
   languageName: node
   linkType: hard
 
 "@babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.16.3":
-  version: 7.17.2
-  resolution: "@babel/runtime@npm:7.17.2"
+  version: 7.17.8
+  resolution: "@babel/runtime@npm:7.17.8"
   dependencies:
     regenerator-runtime: ^0.13.4
-  checksum: a48702d271ecc59c09c397856407afa29ff980ab537b3da58eeee1aeaa0f545402d340a1680c9af58aec94dfdcbccfb6abb211991b74686a86d03d3f6956cacd
+  checksum: 68d195c1630bb91ac20e86635d292a17ebab7f361cfe79406b3f5a6cc2e59fa283ae5006568899abf869312c2b35b744bd407aea8ffdb650f1a68d07785d47e9
   languageName: node
   linkType: hard
 
@@ -102,16 +102,13 @@ __metadata:
     eslint-plugin-react-hooks: ~4.3.0
     eslint-plugin-sort-export-all: ~1.2.1
     typescript: 4.6.2
-  peerDependencies:
-    eslint: 8.x.x
-    typescript: 4.5.x || 4.6.x
   languageName: unknown
   linkType: soft
 
 "@types/json-schema@npm:^7.0.9":
-  version: 7.0.9
-  resolution: "@types/json-schema@npm:7.0.9"
-  checksum: 259d0e25f11a21ba5c708f7ea47196bd396e379fddb79c76f9f4f62c945879dc21657904914313ec2754e443c5018ea8372362f323f30e0792897fdb2098a705
+  version: 7.0.10
+  resolution: "@types/json-schema@npm:7.0.10"
+  checksum: 369f12207298e3c8931100ab86c9c60d9217ab930a8ae0b851495f4f30695d3f0eb431eedc8e8d9c69357869899ea0fe6f9d65ddde5ea70415d67ef340dfdd1f
   languageName: node
   linkType: hard
 
@@ -485,14 +482,14 @@ __metadata:
   linkType: hard
 
 "debug@npm:^4.1.1, debug@npm:^4.3.1, debug@npm:^4.3.2":
-  version: 4.3.3
-  resolution: "debug@npm:4.3.3"
+  version: 4.3.4
+  resolution: "debug@npm:4.3.4"
   dependencies:
     ms: 2.1.2
   peerDependenciesMeta:
     supports-color:
       optional: true
-  checksum: 14472d56fe4a94dbcfaa6dbed2dd3849f1d72ba78104a1a328047bb564643ca49df0224c3a17fa63533fd11dd3d4c8636cd861191232a2c6735af00cc2d4de16
+  checksum: 3dbad3f94ea64f34431a9cbf0bafb61853eda57bff2880036153438f50fb5a84f27683ba0d8e5426bf41a8c6ff03879488120cf5b3a761e77953169c0600a708
   languageName: node
   linkType: hard
 
@@ -701,8 +698,8 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-react@npm:~7.29.3":
-  version: 7.29.3
-  resolution: "eslint-plugin-react@npm:7.29.3"
+  version: 7.29.4
+  resolution: "eslint-plugin-react@npm:7.29.4"
   dependencies:
     array-includes: ^3.1.4
     array.prototype.flatmap: ^1.2.5
@@ -720,7 +717,7 @@ __metadata:
     string.prototype.matchall: ^4.0.6
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
-  checksum: 5a7b0b5700a3ed9bc52f5e7caab31a60bba586d356d07b49aa78c4b7b83fb54f2e4f6d59f61a9a315f1f89ea74f422a41846ff3432647dd1e8ae629a96dc2814
+  checksum: bb7d3715ccd7f3e0d7bfaa2125b26d96865695bcfea4a3d510a5763342a74ab5b99a88e13aad9245f9461ad87e4bce69c33fc946888115d576233f9b6e69700d
   languageName: node
   linkType: hard
 
@@ -1037,11 +1034,11 @@ __metadata:
   linkType: hard
 
 "globals@npm:^13.6.0, globals@npm:^13.9.0":
-  version: 13.12.1
-  resolution: "globals@npm:13.12.1"
+  version: 13.13.0
+  resolution: "globals@npm:13.13.0"
   dependencies:
     type-fest: ^0.20.2
-  checksum: cf7877629c8f2a293b0a7d09d1dcce7f2d426ec2528600c481c5b3f3d070b0a120eb2499439ac0404990fb8a5742c0165b1bf1f52603364001ddc89bea3dda24
+  checksum: c55ea8fd3afecb72567bac41605577e19e68476993dfb0ca4c49b86075af5f0ae3f0f5502525f69010f7c5ea5db6a1c540a80a4f80ebdfb2f686d87b0f05d7e9
   languageName: node
   linkType: hard
 
@@ -1925,14 +1922,14 @@ __metadata:
   linkType: hard
 
 "tsconfig-paths@npm:^3.12.0, tsconfig-paths@npm:^3.9.0":
-  version: 3.13.0
-  resolution: "tsconfig-paths@npm:3.13.0"
+  version: 3.14.0
+  resolution: "tsconfig-paths@npm:3.14.0"
   dependencies:
     "@types/json5": ^0.0.29
     json5: ^1.0.1
     minimist: ^1.2.0
     strip-bom: ^3.0.0
-  checksum: 64f0de3c882c016cdfe34d5261087fcf0c75048c4206ee32540e36df9f99d82d2caa5872135d3b6704324f5fd7d9032131caf316c1da83c2ac465d5dfb2aafd4
+  checksum: edd81e8f053a67e4a308037d2668c1fff06b01d4c3989170b90eb7eae5bdbebcc4910a8b7fbe0af3c21c62b68f67c1a9b9de5d9fe96cfe15ca45f7a198ee2c0c
   languageName: node
   linkType: hard
 
