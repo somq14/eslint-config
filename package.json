@@ -20,7 +20,7 @@
     "typescript": "4.5.x"
   },
   "devDependencies": {
-    "eslint": "8.x.x",
-    "typescript": "4.5.x"
+    "eslint": "8.10.0",
+    "typescript": "4.5.5"
   }
 }
