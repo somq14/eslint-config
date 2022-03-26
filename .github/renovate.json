@@ -6,5 +6,6 @@
     "schedule:weekends",
     ":prHourlyLimitNone",
     ":maintainLockFilesMonthly"
-  ]
+  ],
+  "commitMessagePrefix": "⬆️ "
 }
