@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:js-lib",
+    ":timezone(Asia/Tokyo)",
+    "schedule:weekends",
+    ":prHourlyLimitNone",
+    ":maintainLockFilesMonthly"
+  ]
+}
