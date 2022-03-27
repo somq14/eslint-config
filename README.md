@@ -3,7 +3,13 @@
 ## Installation
 
 ```
+# for yarn v1
 yarn add -D prettier eslint typescript somq14/eslint-config#<tag>
+```
+
+```
+# for yarn v2
+yarn add -D prettier eslint typescript @somq14/eslint-config@somq14/eslint-config#<tag>
 ```
 
 ## Configuration
