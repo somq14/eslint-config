@@ -2,14 +2,20 @@
 
 ## Installation
 
-```
-# for yarn v1
-yarn add -D prettier eslint typescript somq14/eslint-config#<tag>
+```sh
+yarn add -D somq14/eslint-config#<tag>
 ```
 
+or for yarn v2
+
+```sh
+yarn add @somq14/eslint-config@somq14/eslint-config#<tag>
 ```
-# for yarn v2
-yarn add -D prettier eslint typescript @somq14/eslint-config@somq14/eslint-config#<tag>
+
+and install peer dependencies
+
+```sh
+yarn add -D prettier eslint typescript
 ```
 
 ## Configuration
@@ -23,7 +29,7 @@ module.exports = {
 };
 ```
 
-```sh
+```gitignore
 # .prettierignore
 .yarn/
 dist/
@@ -32,10 +38,10 @@ coverage/
 
 ## Usage
 
-```
+```sh
 yarn prettier --ignore-unknown --write '**/*'
 ```
 
-```
+```sh
 yarn eslint --max-warnings 0 '**/*.{js,jsx,ts,tsx}'
 ```
