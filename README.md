@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-yarn add -DT eslint typescript somq14/eslint-config#<tag>
+yarn add -D prettier eslint typescript somq14/eslint-config#<tag>
 ```
 
 ## Configuration
@@ -17,7 +17,18 @@ module.exports = {
 };
 ```
 
+```sh
+# .prettierignore
+.yarn/
+dist/
+coverage/
+```
+
 ## Usage
+
+```
+yarn prettier --ignore-unknown --write '**/*'
+```
 
 ```
 yarn eslint --max-warnings 0 '**/*.{js,jsx,ts,tsx}'
