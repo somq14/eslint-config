@@ -832,13 +832,13 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-sort-export-all@npm:~1.2.1":
-  version: 1.2.1
-  resolution: "eslint-plugin-sort-export-all@npm:1.2.1"
+  version: 1.2.2
+  resolution: "eslint-plugin-sort-export-all@npm:1.2.2"
   dependencies:
     natural-compare: ^1.4.0
   peerDependencies:
     eslint: ^4 || ^5 || ^6 || ^7 || ^8
-  checksum: aad3c4575ecfc53b524a3bbba731f5db4a47b68bdddc6381add4d3418b15044da397e4cdb1f278b06f0808c8f2af983142be2c0d5ecfaf1dd114aa9468915a2e
+  checksum: efa8f473d369536a07c0b9c2b4da7f0a4cdd415cc6bebdabd17226e5fe82739e00d74f111b4aed862ef0d051ba3d5811f2af25f41074f416fcea32e40ca63f8f
   languageName: node
   linkType: hard
 
