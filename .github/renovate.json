@@ -7,5 +7,11 @@
     ":prHourlyLimitNone",
     ":maintainLockFilesWeekly"
   ],
-  "commitMessagePrefix": "⬆️ "
+  "commitMessagePrefix": "⬆️ ",
+  "packageRules": [
+    {
+      "groupName": "patch versions",
+      "matchUpdateTypes": ["patch"]
+    }
+  ]
 }
