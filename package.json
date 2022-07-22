@@ -2,7 +2,7 @@
   "name": "@somq14/eslint-config",
   "version": "0.3.6",
   "main": "index.js",
-  "packageManager": "yarn@3.2.1",
+  "packageManager": "yarn@3.2.2",
   "scripts": {
     "format": "prettier --ignore-unknown --write '**/*'",
     "lint": "eslint --max-warnings 0 '**/*.{js,jsx,ts,tsx}'",
