@@ -1,5 +1,5 @@
 "*":
-  - prettier --ignore-unknown --check
+  - prettier --ignore-path .gitignore --ignore-unknown --check
 
-"*.{js,jsx,ts,tsx}":
-  - eslint --max-warnings 0 '**/*.{js,jsx,ts,tsx}'
+"*.{js,jsx,cjs,mjs,ts,tsx}":
+  - eslint --ignore-path .gitignore --max-warnings 0

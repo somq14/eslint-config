@@ -9,7 +9,7 @@ yarn add -D somq14/eslint-config#<tag>
 or for yarn v2
 
 ```sh
-yarn add @somq14/eslint-config@somq14/eslint-config#<tag>
+yarn add -D @somq14/eslint-config@somq14/eslint-config#<tag>
 ```
 
 and install peer dependencies
@@ -20,28 +20,19 @@ yarn add -D prettier eslint typescript
 
 ## Configuration
 
-```js
-// .eslintrc.js
-module.exports = {
-  root: true,
-  extends: ["@somq14/eslint-config"],
-  ignorePatterns: ["dist", "coverage"],
-};
-```
-
-```gitignore
-# .prettierignore
-.yarn/
-dist/
-coverage/
+```yml
+# .eslintrc.yml
+root: true
+extends:
+  - "@somq14/eslint-config"
 ```
 
 ## Usage
 
 ```sh
-yarn prettier --ignore-unknown --write '**/*'
+yarn prettier --ignore-path .gitignore --ignore-unknown --write \"**/*\"
 ```
 
 ```sh
-yarn eslint --max-warnings 0 '**/*.{js,jsx,ts,tsx}'
+yarn eslint --ignore-path .gitignore --max-warnings 0 \"**/*.{js,jsx,cjs,mjs,ts,tsx}\"
 ```

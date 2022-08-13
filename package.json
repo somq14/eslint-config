@@ -4,8 +4,8 @@
   "main": "index.js",
   "packageManager": "yarn@3.2.2",
   "scripts": {
-    "format": "prettier --ignore-unknown --write '**/*'",
-    "lint": "eslint --max-warnings 0 '**/*.{js,jsx,ts,tsx}'",
+    "format": "prettier --ignore-path .gitignore --ignore-unknown --write \"**/*\"",
+    "lint": "eslint --ignore-path .gitignore --max-warnings 0 \"**/*.{js,jsx,cjs,mjs,ts,tsx}\"",
     "prepare": "husky install"
   },
   "dependencies": {
