@@ -115,7 +115,7 @@ __metadata:
     "@typescript-eslint/parser": ~5.33.0
     eslint: 8.21.0
     eslint-config-prettier: ~8.5.0
-    eslint-import-resolver-typescript: ~3.4.0
+    eslint-import-resolver-typescript: ~3.5.0
     eslint-plugin-import: ~2.26.0
     eslint-plugin-jsx-a11y: ~6.6.0
     eslint-plugin-only-warn: ~1.0.3
@@ -773,21 +773,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-typescript@npm:~3.4.0":
-  version: 3.4.1
-  resolution: "eslint-import-resolver-typescript@npm:3.4.1"
+"eslint-import-resolver-typescript@npm:~3.5.0":
+  version: 3.5.0
+  resolution: "eslint-import-resolver-typescript@npm:3.5.0"
   dependencies:
     debug: ^4.3.4
     enhanced-resolve: ^5.10.0
     get-tsconfig: ^4.2.0
     globby: ^13.1.2
-    is-core-module: ^2.9.0
+    is-core-module: ^2.10.0
     is-glob: ^4.0.3
-    synckit: ^0.8.1
+    synckit: ^0.8.3
   peerDependencies:
     eslint: "*"
     eslint-plugin-import: "*"
-  checksum: 952aaa4f25435b009e6604bf8a81acee2db064de1cefcac0628fd5167711721829e911910534f8773fbfe6a12c21d60bb0d324351ad25cd092481d9f80f6105d
+  checksum: 9719d1f68b7bb0eaf8939cff2d3b02b526949f73db744877de781640650dd4d0a17d934222b9ac69e27d9f363ee4569c1aa1a2a2aab6500257517f9bf7d25976
   languageName: node
   linkType: hard
 
@@ -1469,7 +1469,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.8.1, is-core-module@npm:^2.9.0":
+"is-core-module@npm:^2.10.0, is-core-module@npm:^2.8.1, is-core-module@npm:^2.9.0":
   version: 2.10.0
   resolution: "is-core-module@npm:2.10.0"
   dependencies:
@@ -2530,7 +2530,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"synckit@npm:^0.8.1":
+"synckit@npm:^0.8.3":
   version: 0.8.3
   resolution: "synckit@npm:0.8.3"
   dependencies:
