@@ -100,9 +100,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pkgr/utils@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "@pkgr/utils@npm:2.3.0"
+"@pkgr/utils@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "@pkgr/utils@npm:2.3.1"
   dependencies:
     cross-spawn: ^7.0.3
     is-glob: ^4.0.3
@@ -110,7 +110,7 @@ __metadata:
     picocolors: ^1.0.0
     tiny-glob: ^0.2.9
     tslib: ^2.4.0
-  checksum: d2fe95c51d548497425182b284dea8155d9e80bb36fa744c670174d7deae53743b13aa9f63a8bfaa8b31dcf7c53dc279a99372f2c2c35ff9fcebf91c5c5c8190
+  checksum: 118a1971120253740121a1db0a6658c21195b7da962acf9c124b507a3df707cfc97b0b84a16edcbd4352853b182e8337da9fc6e8e3d06c60d75ae4fb42321c75
   languageName: node
   linkType: hard
 
@@ -566,9 +566,9 @@ __metadata:
   linkType: hard
 
 "core-js-pure@npm:^3.20.2":
-  version: 3.24.1
-  resolution: "core-js-pure@npm:3.24.1"
-  checksum: 4b8990a65c58e2320ff607f6168656fdcbfb4f60bd4af0ce7b09f5c0e0099b0cfc2632836986cfcb11f6ffe7ea46a5b8679651bc83ca3f41690f5ef7472d6f33
+  version: 3.25.0
+  resolution: "core-js-pure@npm:3.25.0"
+  checksum: 041cef3c4fa03b30eea6aa8539db00a02ea264e8542b9b787428f43e727e67050c742f46dbd75bc9ab544524a54e1ee55d8b23602dc8a2da485a3741a5f95df7
   languageName: node
   linkType: hard
 
@@ -874,8 +874,8 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-react@npm:~7.31.0":
-  version: 7.31.0
-  resolution: "eslint-plugin-react@npm:7.31.0"
+  version: 7.31.1
+  resolution: "eslint-plugin-react@npm:7.31.1"
   dependencies:
     array-includes: ^3.1.5
     array.prototype.flatmap: ^1.3.0
@@ -893,7 +893,7 @@ __metadata:
     string.prototype.matchall: ^4.0.7
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
-  checksum: 465829bb477f3adf0ce96294c2b9c97147414a449d14f4dde21711f38213924a4facd567f7263be67958f284edf5ea25cf9f996bc95240d74cfa2ee95b1c81a6
+  checksum: 6217d4c4e36c8fea24facd0cdcf22b2fd38a3603db94ec7c0a6f430046c8564b6c6884e0a9d4a4b8766201f66e8b18af594002210421bf9b6623b1fc32e15a3a
   languageName: node
   linkType: hard
 
@@ -1151,9 +1151,9 @@ __metadata:
   linkType: hard
 
 "flatted@npm:^3.1.0":
-  version: 3.2.6
-  resolution: "flatted@npm:3.2.6"
-  checksum: 33b87aa88dfa40ca6ee31d7df61712bbbad3d3c05c132c23e59b9b61d34631b337a18ff2b8dc5553acdc871ec72b741e485f78969cf006124a3f57174de29a0e
+  version: 3.2.7
+  resolution: "flatted@npm:3.2.7"
+  checksum: 427633049d55bdb80201c68f7eb1cbd533e03eac541f97d3aecab8c5526f12a20ccecaeede08b57503e772c769e7f8680b37e8d482d1e5f8d7e2194687f9ea35
   languageName: node
   linkType: hard
 
@@ -1924,14 +1924,14 @@ __metadata:
   linkType: hard
 
 "object.assign@npm:^4.1.2, object.assign@npm:^4.1.3":
-  version: 4.1.3
-  resolution: "object.assign@npm:4.1.3"
+  version: 4.1.4
+  resolution: "object.assign@npm:4.1.4"
   dependencies:
     call-bind: ^1.0.2
     define-properties: ^1.1.4
     has-symbols: ^1.0.3
     object-keys: ^1.1.1
-  checksum: fe87c8acd60e0d7140e1eae8886804e7497bf6a019bae715084083c2abd1760bd5aa9c3f0e5b02c82ca5cc33b641dc908c42c86c6f7d6dfd9f083a7baa95d318
+  checksum: 76cab513a5999acbfe0ff355f15a6a125e71805fcf53de4e9d4e082e1989bdb81d1e329291e1e4e0ae7719f0e4ef80e88fb2d367ae60500d79d25a6224ac8864
   languageName: node
   linkType: hard
 
@@ -2539,12 +2539,12 @@ __metadata:
   linkType: hard
 
 "synckit@npm:^0.8.3":
-  version: 0.8.3
-  resolution: "synckit@npm:0.8.3"
+  version: 0.8.4
+  resolution: "synckit@npm:0.8.4"
   dependencies:
-    "@pkgr/utils": ^2.3.0
+    "@pkgr/utils": ^2.3.1
     tslib: ^2.4.0
-  checksum: ba6baa7c32e69b38eebb322a8eb1712a117f7f1eaa42e75623c7d6da43f0e61d3ac33fa962c2c58a8b37742f1e0ae9d21f04c9da0dbf34d618a8780055e9e1fa
+  checksum: 83e054fe4494dab42114fc4ed36a11b85e18742d304ade3f40d3afb4ba4145d76183adba1f29e2c36e9a0a453b93a83e2387505f96a0efd901f562927a968c44
   languageName: node
   linkType: hard
 
